@@ -1,0 +1,115 @@
+.game {
+    background-color: #ada489;
+    padding: 2rem;
+}
+
+.game button {
+    display: flex;
+    flex-direction: column;
+    margin : 1rem auto;
+    color: #ada489;
+    border-radius: 30px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+    border: none
+}
+.game button:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    cursor: pointer;
+}
+
+.game_detail {
+    width:80%;
+    border-radius: 30px;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+}
+
+.game_img{
+    width:100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.game_info {
+    display: flex;
+}
+.game_text {
+    margin: 1rem 2rem;
+}
+
+.game_text h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.game_text h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.game_genre {
+    justify-content: space-around;
+    display: flex;
+    margin-top:1rem;
+}
+.genre {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: auto
+}
+
+.game_screen img {
+    width:100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.game_screen {
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+    width:90%;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.game_screen::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ada489;
+
+}
+  
+.game_screen::-webkit-scrollbar {
+    height: 0.5rem;
+}
+
+.video {
+    width:90%;
+    height:70vh;
+    margin:auto;
+}
+.video video {
+    object-fit: cover;
+}

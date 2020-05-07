@@ -1,0 +1,87 @@
+.games {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.filterbutton {
+    margin : 1rem auto;
+    border:none;
+    border-radius: 30px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    text-align: center;
+    align-items: center;
+    background: #ada489;
+    color: #fff;
+    padding: 1rem;
+    font-weight:600;
+    width:50%;
+    text-transform: uppercase;
+}
+
+.filterbutton:hover {
+    cursor: pointer;
+}
+
+.games_container {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.game_link {
+    text-decoration:none;
+    width:70%
+}
+
+.game_link button{
+    display: flex;
+    flex-direction: column;
+    margin : 1rem auto;
+    border: 0.1rem solid #ada489;
+    border-radius: 30px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    text-align: center;
+    align-items: center;
+    background: none;
+    padding: 1rem;
+    width: 100%
+}
+
+.game_link button:hover {
+    background-color: #ada489;
+    color: #fff;
+    cursor: pointer;
+}
+
+.game_container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.delete {
+    display: flex;
+    flex-direction: column;
+    margin : 1rem auto;
+    border-radius: 30px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    text-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 1rem;
+    width: 10vw;
+    background-color: #0f0f0f;
+    color:#fff;
+    font-weight: 500;
+}
+
+.delete:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.61);
+}
